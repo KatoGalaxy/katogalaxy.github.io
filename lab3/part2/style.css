@@ -2,5 +2,18 @@ html {
     font-family: sans-serif;
   }
   
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    /* I found a table for px to rem sizes. 18px = 1.1rem, though honestly I'm not a math person so like. lol */
+    font-size: 1.1rem;
+    background-color: red;
+    color: white;
+    text-shadow: 1px 1px black;
+}
   /* Your CSS below here */
   

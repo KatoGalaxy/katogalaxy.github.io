@@ -5,13 +5,17 @@ html {
 div {
     width: 200px;
     height: 200px;
+    border-width: 1px;
     border-radius: 10px;
+    border-style: solid;
+    border-color: darkred;
     margin: auto;
     text-align: center;
     align-content: center;
     /* I found a table for px to rem sizes. 18px = 1.1rem, though honestly I'm not a math person so like. lol */
     font-size: 1.1rem;
     background-color: red;
+    background-image: linear-gradient(to bottom right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 30%); 
     color: white;
     text-shadow: 1px 1px black;
 }

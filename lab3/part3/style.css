@@ -165,3 +165,21 @@ a[href^="http"]::after {
 li {
   line-height: 1.6;
 }
+
+/* menu styling */
+
+nav ul {
+  font-family: "AbeeZee";
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border: solid black 2px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

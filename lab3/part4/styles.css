@@ -1,3 +1,10 @@
+/* TO DO
+- Display navbar in one line
+- Make navbar stay at the top of screen after scrolling past it (done!)
+- The image in the article should have text wrapped around it
+- Article and aside should be in a two column layout, and should be flexible in case the screen shrinks
+- The photos should be in a two column layout, with a 1px gap between them */
+
 body {
     background-color: #fff;
     color: #333;
@@ -26,6 +33,11 @@ body {
   nav {
     background-color: #000;
     padding: .5em;
+
+    /* "position: sticky" allows the element to stay in the specified position. */
+    /* I believe this is the intended way to get the navbar to stay on screen */
+    position: sticky;
+    top: 0px;
   }
   
   nav ul {

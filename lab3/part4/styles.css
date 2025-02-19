@@ -1,5 +1,5 @@
 /* TO DO
-- Display navbar in one line
+- Display navbar in one line (done!)
 - Make navbar stay at the top of screen after scrolling past it (done!)
 - The image in the article should have text wrapped around it
 - Article and aside should be in a two column layout, and should be flexible in case the screen shrinks
@@ -64,6 +64,10 @@ body {
     padding: 0;
   }
 
+  /* .feature class controls the image in the main text */
   .feature {
       width: 200px;
+      float: left;
+      margin: 10px;
+      padding-right: .5em;
   }

@@ -44,8 +44,14 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+
+    /* This allows the navbar to be one evenly spaced line. */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
   }
-  
+
   nav a {
     color: #fff;
     text-decoration: none;
